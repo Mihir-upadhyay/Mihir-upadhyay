@@ -1,7 +1,7 @@
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-hero-dark.svg">
-  <img alt="Mihir-upadhyay: GitHub profile. A visual-effects shot breakdown: a city with one tower for every day of the last year, as tall as that day was busy, shown as wireframe, clay, normals and depth passes and then the final sunset beauty pass, with the name as the title. 15 contributions on 2 active days." src="./assets/breakdown-hero-light.svg" width="100%">
+  <img alt="Mihir-upadhyay: GitHub profile. A visual-effects shot breakdown: a city with one tower for every day of the last year, as tall as that day was busy, shown as wireframe, clay, normals and depth passes and then the final sunset beauty pass, with the name as the title. 57 contributions on 2 active days." src="./assets/breakdown-hero-light.svg" width="100%">
 </picture>
 </p>
 
@@ -13,7 +13,7 @@
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-script-dark.svg">
-  <img alt="Comp script: the last year is the background plate, frames 1001 to 1365, with HYDROPONICS merged over it, then graded, written out as v002 and viewed. Render log: 15 contributions on 2 active days, longest streak 2 days, longest break 363 days, peak day November 13 with 10, 0 followers, 0 stars, on GitHub since 2024." src="./assets/breakdown-script-light.svg" width="100%">
+  <img alt="Comp script: the last year is the background plate, frames 1001 to 1365, with Speech-to-text-to-speech-editor, Dual-band-slotted-monopole-antenna, Artix-7-door-lock-SystemVerilog-FPGA-, 16-bit-ALU-on-Logisim merged over it, then graded, written out as v002 and viewed. Render log: 57 contributions on 2 active days, longest streak 2 days, longest break 363 days, peak day November 13 with 52, 0 followers, 0 stars, on GitHub since 2024. Languages: MATLAB 37%, C++ 33%, Verilog 24%, Tcl 6%." src="./assets/breakdown-script-light.svg" width="100%">
 </picture>
 </p>
 
@@ -33,7 +33,14 @@
 
 #### Credits
 
-- **[HYDROPONICS](https://github.com/Mihir-upadhyay/HYDROPONICS)**  
+- **[Speech-to-text-to-speech-editor](https://github.com/Mihir-upadhyay/Speech-to-text-to-speech-editor)**  
+  <sub>MATLAB</sub>
+- **[Dual-band-slotted-monopole-antenna](https://github.com/Mihir-upadhyay/Dual-band-slotted-monopole-antenna)**  
+- **[Artix-7-door-lock-SystemVerilog-FPGA-](https://github.com/Mihir-upadhyay/Artix-7-door-lock-SystemVerilog-FPGA-)**  
+  <sub>Verilog</sub>
+- **[16-bit-ALU-on-Logisim](https://github.com/Mihir-upadhyay/16-bit-ALU-on-Logisim)**  
+
+**Toolkit:** MATLAB · C++ · Verilog · Tcl
 
 <p align="center">
 <picture>
