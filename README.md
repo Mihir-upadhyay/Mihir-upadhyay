@@ -49,6 +49,8 @@
 </picture>
 </p>
 
+
+
 <div align="center">
 
 <img src="assets/header.svg" alt="Mihir Upadhyay: RTL design, FPGA, embedded systems, PCB and RF" width="100%"/>
@@ -70,13 +72,23 @@
 <a href="https://Mihir-upadhyay.github.io/hardware-lab/#arduino"><img src="assets/hw-arduino.svg" width="24%" alt="Arduino Uno 3D model"/></a>
 <a href="https://Mihir-upadhyay.github.io/hardware-lab/#esp32s3"><img src="assets/hw-esp32s3.svg" width="24%" alt="ESP32-S3 3D model"/></a>
 
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#nano"><img src="assets/hw-nano.svg" width="24%" alt="Arduino Nano 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#rain"><img src="assets/hw-rain.svg" width="24%" alt="Rain Sensor 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#ir"><img src="assets/hw-ir.svg" width="24%" alt="IR Sensor 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#gas"><img src="assets/hw-gas.svg" width="24%" alt="Gas Sensor 3D model"/></a>
+
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#pir"><img src="assets/hw-pir.svg" width="24%" alt="PIR Sensor 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#ultrasonic"><img src="assets/hw-ultrasonic.svg" width="24%" alt="Ultrasonic 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#servo"><img src="assets/hw-servo.svg" width="24%" alt="Servo Motor 3D model"/></a>
+
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINK)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihir-upadhyay-0209962a1/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mihirupadhyay7788@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mihir-upadhyay)
 
 <img src="assets/footer.svg" alt="end of transmission" width="100%"/>
 
 </div>
+
 
