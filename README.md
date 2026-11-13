@@ -32,13 +32,6 @@
 </details>
 
 
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-end-dark.svg">
-  <img alt="End card: an on-set lighting reference kit, with a grey ball, a chrome ball and a colour chart. Thanks for watching." src="./assets/breakdown-end-light.svg" width="100%">
-</picture>
-</p>
-
 
 
 <div align="center">
@@ -80,3 +73,11 @@
 <img src="assets/footer.svg" alt="end of transmission" width="100%"/>
 
 </div>
+
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-end-dark.svg">
+  <img alt="End card: an on-set lighting reference kit, with a grey ball, a chrome ball and a colour chart. Thanks for watching." src="./assets/breakdown-end-light.svg" width="100%">
+</picture>
+</p>
