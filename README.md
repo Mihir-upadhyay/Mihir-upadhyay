@@ -31,7 +31,6 @@
 
 </details>
 
-**Toolkit:** MATLAB · C++ · Verilog · Tcl
 
 <p align="center">
 <picture>
