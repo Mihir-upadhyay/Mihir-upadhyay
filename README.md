@@ -31,14 +31,6 @@
 </details>
 
 
-# rtl-journal
-
-Daily RTL practice from **HDLBits** and **Logicode**, logged automatically.
-
-[![RTL practice log](stats/progress.svg)](PROBLEMS.md)
-
-
-
 <div align="center">
 
 <img src="assets/header.svg" alt="Mihir Upadhyay: RTL design, FPGA, embedded systems, PCB and RF" width="100%"/>
