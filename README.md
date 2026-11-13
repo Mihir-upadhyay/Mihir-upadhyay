@@ -31,17 +31,6 @@
 
 </details>
 
-#### Credits
-
-- **[Dual-band-slotted-monopole-antenna](https://github.com/Mihir-upadhyay/Dual-band-slotted-monopole-antenna)**  
-  <sub>★ 1</sub>
-- **[Artix-7-door-lock-SystemVerilog-FPGA-](https://github.com/Mihir-upadhyay/Artix-7-door-lock-SystemVerilog-FPGA-)**  
-  <sub>Verilog · ★ 1</sub>
-- **[Arduino-Shield](https://github.com/Mihir-upadhyay/Arduino-Shield)**  
-  <sub>★ 1</sub>
-- **[8-DOF-quadrabot-using-ESP32](https://github.com/Mihir-upadhyay/8-DOF-quadrabot-using-ESP32)**  
-  <sub>C++ · ★ 1</sub>
-
 **Toolkit:** MATLAB · C++ · Verilog · Tcl
 
 <p align="center">
