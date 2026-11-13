@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Mihir-upadhyay. A visual-effects shot breakdown: a city with one tower per day of the last year, as tall as that day was busy, rendered as wireframe, clay, normals and depth passes, then the final beauty pass at sunset, with the name as the title.">
+<style>
+.ext{animation:ext 0.5s cubic-bezier(0.16, 1, 0.3, 1) both}
+.hold{animation-name:show;animation-timing-function:step-end;animation-fill-mode:both}
+.wipe{transform-box:fill-box;transform-origin:left center;animation-name:wipe;animation-timing-function:cubic-bezier(0.65, 0, 0.35, 1);animation-fill-mode:both;animation-duration:0.45s}
+/* no fill: the bar is invisible before and after its sweep */
+.bar{animation-name:bar;animation-timing-function:cubic-bezier(0.65, 0, 0.35, 1)}
+.tabOn{animation-name:tabOn;animation-timing-function:step-end;animation-fill-mode:forwards}
+.tabWait{animation:tabWait step-end both}
+.uline{animation:uline 4.724s both}
+.play{animation:play 1.644s cubic-bezier(.4,0,.2,1) 0.45s both}
+.roll{animation:roll 1.644s cubic-bezier(.4,0,.2,1) 0.45s both}
+.boot{animation:fade .6s ease-out .1s both}
+.flare{transform-origin:600px 272px;animation:flare 1.8s cubic-bezier(0.16, 1, 0.3, 1) 4.874s both}
+.draw{stroke-dasharray:700;animation:draw 1.7s cubic-bezier(.5,0,.3,1) .5s both}
+.glint{animation:glint 1.5s cubic-bezier(.5,0,.3,1) 5.824s both}
+.rise{animation:rise .9s cubic-bezier(0.16, 1, 0.3, 1) both}
+.kick{animation:rise .9s cubic-bezier(0.16, 1, 0.3, 1) 5.4239999999999995s both}
+.late{animation:fade 1s ease-out 5.074s both}
+.pulse{animation-name:pulse;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+.drift{animation-name:drift;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+.a{fill:var(--a)}.b{fill:var(--b)}.t{fill:var(--t)}.f{fill:var(--f)}
+.l{fill:none;stroke:var(--l,none);stroke-width:.6}
+.n{fill:none;stroke:var(--n,none)}
+.r{fill:none;stroke:var(--r,none);stroke-width:1.1;stroke-linecap:round}
+.s{fill:none;stroke:var(--s,none);stroke-linecap:round}
+@keyframes ext{from{transform:scaleY(0)}}
+@keyframes show{from{opacity:1}}
+@keyframes wipe{from{transform:scaleX(0)}}
+@keyframes bar{from{transform:translateX(-1176px);opacity:1}88%{opacity:1}}
+@keyframes tabOn{from{fill:#c8a96e}}
+@keyframes tabWait{from{fill:#8a8a82}}
+@keyframes uline{0%,49.27%{transform:translateX(-230px)}52.27%,64.28999999999999%{transform:translateX(-180px)}67.28999999999999%,79.32000000000001%{transform:translateX(-127px)}82.32000000000001%,97%{transform:translateX(-62px)}}
+@keyframes play{from{transform:translateX(-1056px)}}
+@keyframes roll{from{transform:translateY(0)}}
+@keyframes fade{from{opacity:0}}
+@keyframes flare{from{opacity:0;transform:scaleX(.2)}}
+@keyframes draw{from{stroke-dashoffset:700}}
+@keyframes glint{from{transform:translateX(-1006.5px)}}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(14px,0)}}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<defs>
+  <clipPath id="frame"><rect width="1200" height="600" rx="16"/></clipPath>
+  <clipPath id="viewer"><rect x="12" y="40" width="1176" height="492"/></clipPath>
+  <clipPath id="wp0"><rect class="wipe" style="animation-delay:2.244s" x="12" y="40" width="1176" height="492"/></clipPath><clipPath id="wp1"><rect class="wipe" style="animation-delay:2.9539999999999997s" x="12" y="40" width="1176" height="492"/></clipPath><clipPath id="wp2"><rect class="wipe" style="animation-delay:3.6639999999999997s" x="12" y="40" width="1176" height="492"/></clipPath><clipPath id="wp3"><rect class="wipe" style="animation-delay:4.374s;animation-duration:0.7s" x="12" y="40" width="1176" height="492"/></clipPath>
+  <linearGradient id="wireBg" x1="0" y1="40" x2="0" y2="532" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0d1015"/><stop offset="1" stop-color="#0a0c10"/></linearGradient>
+  <linearGradient id="fadeGrad" x1="0" y1="272" x2="0" y2="342" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff"/></linearGradient>
+  <mask id="wireFade" maskUnits="userSpaceOnUse" x="12" y="40" width="1176" height="492"><rect x="12" y="40" width="1176" height="492" fill="url(#fadeGrad)"/></mask>
+  <linearGradient id="claySky" x1="0" y1="40" x2="0" y2="272" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2c2e33"/><stop offset="1" stop-color="#55585e"/></linearGradient>
+  <linearGradient id="clayGround" x1="0" y1="272" x2="0" y2="532" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7a7d83"/><stop offset="1" stop-color="#5d6066"/></linearGradient>
+  <linearGradient id="depthGround" x1="0" y1="272" x2="0" y2="532" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#000000"/><stop offset="0.02" stop-color="#0a0a0a"/><stop offset="0.05" stop-color="#0a0a0a"/><stop offset="0.1" stop-color="#0a0a0a"/><stop offset="0.2" stop-color="#656565"/><stop offset="0.35" stop-color="#aaaaaa"/><stop offset="0.55" stop-color="#d1d1d1"/><stop offset="0.8" stop-color="#e7e7e7"/><stop offset="1" stop-color="#f1f1f1"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="40" x2="0" y2="272" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#05060a"/><stop offset="0.35" stop-color="#0d1220"/><stop offset="0.62" stop-color="#2a2433"/><stop offset="0.86" stop-color="#7a5634"/><stop offset="1" stop-color="#e2b46e"/></linearGradient>
+  <linearGradient id="street" x1="0" y1="272" x2="0" y2="532" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b88a52"/><stop offset=".25" stop-color="#59442c"/><stop offset="1" stop-color="#0b0b0d"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="272" x2="0" y2="532" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c99a5e"/><stop offset=".18" stop-color="#3a2c22"/><stop offset="1" stop-color="#0b0c10"/></linearGradient>
+  <radialGradient id="sunGlow"><stop offset="0" stop-color="#f0c070" stop-opacity="0.75"/><stop offset=".3" stop-color="#f0c070" stop-opacity="0.25"/><stop offset="1" stop-color="#f0c070" stop-opacity="0"/></radialGradient>
+  <radialGradient id="sunPool"><stop offset="0" stop-color="#fff1cf" stop-opacity="0.55"/><stop offset="1" stop-color="#fff1cf" stop-opacity="0"/></radialGradient>
+  <radialGradient id="beacon"><stop offset="0" stop-color="#ff4a3d" stop-opacity=".7"/><stop offset="1" stop-color="#ff4a3d" stop-opacity="0"/></radialGradient>
+  <linearGradient id="streak"><stop offset="0" stop-color="#4a9eff" stop-opacity="0"/><stop offset=".5" stop-color="#4a9eff"/><stop offset="1" stop-color="#4a9eff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="streakCore"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="barGlow"><stop offset="0" stop-color="#c8a96e" stop-opacity="0"/><stop offset="1" stop-color="#c8a96e" stop-opacity=".22"/></linearGradient>
+  <linearGradient id="glintGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <text id="nm" x="226.8" y="170" textLength="746.5" lengthAdjust="spacingAndGlyphs" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="62" letter-spacing="9.9">MIHIR-UPADHYAY</text>
+  <clipPath id="nmClip"><use xlink:href="#nm"/></clipPath>
+  <g id="r52"><path class="b" d="M983 318.1L936 312.4V538.9L983 576.2ZM754.4 393.7L735.5 378.8V538.9L754.4 576.2Z"/><path class="t" d="M983 318.1H1138.8L1072.7 312.4H936ZM754.4 393.7H906.5L868.8 378.8H735.5Z"/><path class="f" d="M983 576.2V318.1H1138.8V576.2ZM754.4 576.2V393.7H906.5V576.2Z"/><path class="l" d="M983 558.9H1138.8M983 541.6H1138.8M983 524.3H1138.8M983 507.1H1138.8M983 489.8H1138.8M983 472.5H1138.8M983 455.2H1138.8M983 437.9H1138.8M983 420.6H1138.8M983 403.4H1138.8M983 386.1H1138.8M983 368.8H1138.8M983 351.5H1138.8M754.4 558.9H906.5M754.4 541.6H906.5M754.4 524.3H906.5M754.4 507.1H906.5M754.4 489.8H906.5M754.4 472.5H906.5M754.4 455.2H906.5M754.4 437.9H906.5M754.4 420.6H906.5"/><path class="n" d="M987.8 533.9h9.7M1026.8 533.9h9.7M1046.3 533.9h9.7M1065.8 533.9h9.7M1065.8 499.3h9.7M1085.3 499.3h9.7M1124.2 482h9.7M1085.3 464.7h9.7M1124.2 464.7h9.7M1124.2 447.4h9.7M1085.3 430.1h9.7M1007.3 412.9h9.7M1065.8 378.3h9.7M1104.7 361h9.7M854.2 551.1h9.5M873.2 551.1h9.5M778.2 533.9h9.5M892.2 533.9h9.5M759.2 516.6h9.5M778.2 499.3h9.5M854.2 464.7h9.5M797.2 447.4h9.5M892.2 430.1h9.5M873.2 412.9h9.5M892.2 412.9h9.5" stroke-width="1.9"/><path class="r" d="M936 312.4H1072.7M735.5 378.8H868.8"/></g>
+  <clipPath id="fc"><rect x="1148.7" y="14.9" width="6.8" height="12.5"/><rect x="1155.5" y="14.9" width="6.8" height="12.5"/><rect x="1162.4" y="14.9" width="6.8" height="12.5"/><rect x="1169.2" y="14.9" width="6.8" height="12.5"/></clipPath><text id="fd" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#f0ede8"><tspan x="0" y="0">0</tspan><tspan x="0" y="14.3">1</tspan><tspan x="0" y="28.6">2</tspan><tspan x="0" y="42.9">3</tspan><tspan x="0" y="57.2">4</tspan><tspan x="0" y="71.5">5</tspan><tspan x="0" y="85.8">6</tspan><tspan x="0" y="100.1">7</tspan><tspan x="0" y="114.4">8</tspan><tspan x="0" y="128.7">9</tspan><tspan x="0" y="143">0</tspan><tspan x="0" y="157.3">1</tspan><tspan x="0" y="171.6">2</tspan><tspan x="0" y="185.9">3</tspan><tspan x="0" y="200.2">4</tspan><tspan x="0" y="214.5">5</tspan><tspan x="0" y="228.8">6</tspan><tspan x="0" y="243.1">7</tspan><tspan x="0" y="257.4">8</tspan><tspan x="0" y="271.7">9</tspan><tspan x="0" y="286">0</tspan><tspan x="0" y="300.3">1</tspan><tspan x="0" y="314.6">2</tspan><tspan x="0" y="328.9">3</tspan><tspan x="0" y="343.2">4</tspan><tspan x="0" y="357.5">5</tspan><tspan x="0" y="371.8">6</tspan><tspan x="0" y="386.1">7</tspan><tspan x="0" y="400.4">8</tspan><tspan x="0" y="414.7">9</tspan><tspan x="0" y="429">0</tspan><tspan x="0" y="443.3">1</tspan><tspan x="0" y="457.6">2</tspan><tspan x="0" y="471.9">3</tspan><tspan x="0" y="486.2">4</tspan><tspan x="0" y="500.5">5</tspan><tspan x="0" y="514.8">6</tspan><tspan x="0" y="529.1">7</tspan><tspan x="0" y="543.4">8</tspan><tspan x="0" y="557.7">9</tspan></text>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="600" fill="#0a0a0a"/>
+  <g clip-path="url(#viewer)">
+    <g class="hold" style="animation-duration:2.6940000000000004s" opacity="0">
+<rect x="12" y="40" width="1176" height="492" fill="url(#wireBg)"/>
+<g mask="url(#wireFade)"><path d="M-6633.3 888L455.3 284.3M-6166.7 888L464.7 284.3M-5700 888L474 284.3M-5233.3 888L483.3 284.3M-4766.7 888L492.7 284.3M-4300 888L502 284.3M-3833.3 888L511.3 284.3M-3366.7 888L520.7 284.3M-2900 888L530 284.3M-2433.3 888L539.3 284.3M-1966.7 888L548.7 284.3M-1500 888L558 284.3M-1033.3 888L567.3 284.3M-566.7 888L576.7 284.3M-100 888L586 284.3M366.7 888L595.3 284.3M833.3 888L604.7 284.3M1300 888L614 284.3M1766.7 888L623.3 284.3M2233.3 888L632.7 284.3M2700 888L642 284.3M3166.7 888L651.3 284.3M3633.3 888L660.7 284.3M4100 888L670 284.3M4566.7 888L679.3 284.3M5033.3 888L688.7 284.3M5500 888L698 284.3M5966.7 888L707.3 284.3M6433.3 888L716.7 284.3M6900 888L726 284.3M7366.7 888L735.3 284.3M7833.3 888L744.7 284.3M8300 888L754 284.3M12 298.1H1188M12 298.5H1188M12 299H1188M12 300.1H1188M12 300.6H1188M12 301.2H1188M12 302.4H1188M12 303H1188M12 303.7H1188M12 305.1H1188M12 305.8H1188M12 306.6H1188M12 308.3H1188M12 309.2H1188M12 310.2H1188M12 312.3H1188M12 313.4H1188M12 314.6H1188M12 317.2H1188M12 318.6H1188M12 320.2H1188M12 323.5H1188M12 325.4H1188M12 327.4H1188M12 331.9H1188M12 334.4H1188M12 337.1H1188M12 343.4H1188M12 347H1188M12 351.1H1188M12 360.5H1188M12 366.2H1188M12 372.6H1188M12 388.4H1188M12 398.4H1188M12 410.2H1188M12 441.9H1188M12 464H1188M12 492.7H1188" stroke="#2a3644" stroke-width=".8" fill="none"/>
+<path d="M12 297.6H1188M12 299.5H1188M12 301.7H1188M12 304.4H1188M12 307.5H1188M12 311.2H1188M12 315.9H1188M12 321.8H1188M12 329.5H1188M12 340.1H1188M12 355.5H1188M12 379.9H1188M12 424.4H1188M12 531.4H1188" stroke="#3c4c60" stroke-width=".9" fill="none"/></g>
+<g style="--a:#0a0c10;--b:#0a0c10;--t:#0a0c10;--f:#0a0c10" stroke="#6fb3ff" stroke-width=".7" stroke-linejoin="round" mask="url(#wireFade)"><use xlink:href="#r52" class="ext" style="transform-origin:600px 576.2px;animation-delay:1.594s"/></g>
+<use xlink:href="#nm" class="draw" fill="none" stroke="#6fb3ff" stroke-width="1.1"/>
+<g fill="none" stroke="#6fb3ff" stroke-opacity=".35" stroke-dasharray="4 5"><rect x="70.80000000000001" y="64.6" width="1058.4" height="442.8"/><rect x="129.60000000000002" y="89.2" width="940.8000000000001" height="393.6"/></g>
+<text x="30" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#6fb3ff">WIRE<tspan font-weight="400" fill-opacity=".7">  persp · 35 mm</tspan></text>
+<g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" font-weight="700">
+<path d="M56 502h22" stroke="#e5484d" stroke-width="1.6"/><text x="82" y="505" fill="#e5484d">X</text>
+<path d="M56 502v-22" stroke="#46a758" stroke-width="1.6"/><text x="53" y="476" fill="#46a758">Y</text>
+<path d="M56 502l-12 10" stroke="#4a9eff" stroke-width="1.6"/><text x="34" y="518" fill="#4a9eff">Z</text>
+<circle cx="56" cy="502" r="2.2" fill="#8a8a82"/></g>
+</g>
+    <g class="hold" style="animation-duration:3.404s" opacity="0"><g clip-path="url(#wp0)">
+<rect x="12" y="40" width="1176" height="232" fill="url(#claySky)"/>
+<rect x="12" y="272" width="1176" height="260" fill="url(#clayGround)"/>
+<g style="--a:#6a6a67;--b:#b9b8b3;--t:#e2e1dc;--f:#8b8a86"><use xlink:href="#r52"/></g>
+<use xlink:href="#nm" fill="#000000" opacity=".22" transform="translate(0 3)"/><use xlink:href="#nm" fill="#e2e1dc"/>
+<text x="30" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#f0ede8">CLAY<tspan font-weight="400" fill-opacity=".7">  grey shader · 1 key</tspan></text>
+</g></g>
+    <g class="hold" style="animation-duration:4.114s" opacity="0"><g clip-path="url(#wp1)">
+<rect x="12" y="40" width="1176" height="492" fill="#000000"/>
+<rect x="12" y="272" width="1176" height="260" fill="#80ff80"/>
+<g style="--a:#ff8080;--b:#008080;--t:#80ff80;--f:#8080ff"><use xlink:href="#r52"/></g>
+<use xlink:href="#nm" fill="#8080ff"/>
+<text x="30" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#ffffff">NORMALS<tspan font-weight="400" fill-opacity=".7">  world · N.xyz</tspan></text>
+</g></g>
+    <g class="hold" style="animation-duration:5.074s" opacity="0"><g clip-path="url(#wp2)">
+<rect x="12" y="40" width="1176" height="492" fill="#000000"/>
+<rect x="12" y="272" width="1176" height="260" fill="url(#depthGround)"/>
+<use xlink:href="#r52" style="--a:#f5f5f5;--b:#f5f5f5;--t:#f5f5f5;--f:#f5f5f5"/>
+<use xlink:href="#nm" fill="#5c5c5c"/>
+<text x="30" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#ffffff">DEPTH<tspan font-weight="400" fill-opacity=".7">  Z · normalised</tspan></text>
+</g></g>
+    <g clip-path="url(#wp3)">
+<rect x="12" y="40" width="1176" height="232" fill="url(#sky)"/>
+<ellipse cx="600" cy="272" rx="520" ry="150" fill="url(#sunGlow)"/>
+<g fill="#e8b878" opacity="0.22"><g class="drift" style="animation-duration:23s"><ellipse cx="811" cy="227" rx="293" ry="4.9" opacity="0.696"/><ellipse cx="213" cy="178" rx="183" ry="3.5" opacity="0.983"/><ellipse cx="558" cy="105" rx="270" ry="3.1" opacity="0.446"/><ellipse cx="109" cy="178" rx="226" ry="3.8" opacity="0.985"/><ellipse cx="551" cy="194" rx="159" ry="2.4" opacity="0.9059999999999999"/><ellipse cx="617" cy="173" rx="179" ry="2.3" opacity="0.7490000000000001"/><ellipse cx="370" cy="245" rx="124" ry="3.3" opacity="0.606"/></g></g>
+<circle cx="600" cy="272" r="15" fill="#fff1cf"/>
+<rect x="12" y="272" width="1176" height="260" fill="url(#water)"/>
+<ellipse cx="600" cy="274" rx="420" ry="34" fill="url(#sunPool)"/>
+<g class="drift" style="animation-duration:9s;animation-direction:reverse"><path d="M11.8 356.8h38.6M1097.5 297.7h24.2M1560.3 596.5h101M1685.7 632.1h63.5M1269.4 362.3h37.6M-90.1 422h34.3M224.8 305.9h30.8M135.9 291.2h21.3M-1038.7 719.4h95.6M-67.1 456.4h42.4M72.3 295.1h22.8M710.6 312.6h20.1M253.7 302h20.8M1378.4 547.4h52.6M966 365.1h23.4M-800.5 610.7h70.9M889.2 350.1h35.4M495.1 291.3h19.1M1158.5 322.7h33.3M89.4 353.3h25.4M205.2 319.6h26.5M944.5 378.5h24.1M405.7 318h32.9M1145.9 301.2h15.6M975.6 345.2h26.1M1042.5 439.6h52.6M1171.2 330.2h40M785 317.6h16.4M267.5 297h23.8M1192.8 328.6h28.2M-272 432.1h41M-40.6 361.7h30.7M303.8 321.3h29.8M820 317.1h36.6M929.7 308.3h25.8M2072 721.9h68.2M885.6 301.5h13.3M844.6 342.2h33.9M-71 384.9h53.9M884.3 303.4h14.9M-1128.5 691.4h93.9M885.1 310.4h24.7M524.5 290.2h20.3M293.6 294.4h15.9M24.4 380.9h38.6M1153.9 328.8h25.2M-803.3 637.7h84.8M56.8 410.7h36.6M422.8 291.2h15.2M955.1 305.6h31.9M915.6 294h23.1M857.9 298h29.2M208.3 296.2h29.6M504.9 289.8h23.9M1231.2 327.7h16.8M1311.9 537.8h73.7M980.5 299.8h24.2M1361.1 397h39.5M65.7 307h16.5M290.3 294.1h16M1036.1 290.6h25.2M752.3 315.1h16.5M445.3 301.9h24.7M1082 346.6h32.8M196.7 300.2h23.2M391.7 321.9h19.1M1042 368.1h47.3M-668.6 575.5h86.8M-518 517.9h92.2M931.3 341.5h28.4" stroke="#f0c070" stroke-opacity="0.28" stroke-width="1.1" stroke-linecap="round"/></g>
+<path d="M-1089.3 888L530.1 297.5H669.9L2289.3 888Z" fill="url(#street)"/>
+<path d="M-1089.3 888L530.1 297.5H669.9L2289.3 888" fill="none" stroke="#ffd894" stroke-opacity="0.35" stroke-width="1"/>
+<use xlink:href="#r52" style="--a:#15161a;--b:#1a1a1e;--t:#5e4d34;--f:#0d0e11;--l:#08090b;--n:#ffcf7a;--r:#ffd894;--s:#ffc46b"/>
+<g transform="translate(1004.3 311.4)"><g class="pulse" style="animation-duration:1.6s;animation-delay:-0s"><circle r="9.2" fill="url(#beacon)"/><circle r="2" fill="#ff4a3d"/></g></g>
+<use xlink:href="#nm" fill="#000000" opacity="0.35" transform="translate(0 2)"/><use xlink:href="#nm" fill="#f6f2ea"/>
+</g>
+    <g class="flare"><g class="pulse" style="animation-duration:5.5s">
+<ellipse cx="600" cy="272" rx="729.12" ry="7" fill="url(#streak)" opacity="0.75"/>
+<ellipse cx="600" cy="272" rx="399.84000000000003" ry="1.6" fill="url(#streakCore)"/>
+</g></g>
+    <g clip-path="url(#nmClip)"><path class="glint" d="M1033.3 108h120l-60 80.6h-120z" fill="url(#glintGrad)"/></g>
+    <text class="kick" x="600" y="101.4" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="3.6" fill="#c8a96e">@MIHIR-UPADHYAY</text>
+    
+    <g class="bar" style="animation-delay:2.244s;animation-duration:0.45s" opacity="0">
+<rect x="1148" y="40" width="40" height="492" fill="url(#barGlow)"/>
+<path d="M1188 40V532" stroke="#c8a96e" stroke-width="1.6"/>
+<rect x="1114" y="50" width="68" height="18" rx="3" fill="#c8a96e"/>
+<text x="1148" y="62.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#0a0a0a">CLAY</text>
+</g><g class="bar" style="animation-delay:2.9539999999999997s;animation-duration:0.45s" opacity="0">
+<rect x="1148" y="40" width="40" height="492" fill="url(#barGlow)"/>
+<path d="M1188 40V532" stroke="#c8a96e" stroke-width="1.6"/>
+<rect x="1114" y="50" width="68" height="18" rx="3" fill="#c8a96e"/>
+<text x="1148" y="62.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#0a0a0a">NORMALS</text>
+</g><g class="bar" style="animation-delay:3.6639999999999997s;animation-duration:0.45s" opacity="0">
+<rect x="1148" y="40" width="40" height="492" fill="url(#barGlow)"/>
+<path d="M1188 40V532" stroke="#c8a96e" stroke-width="1.6"/>
+<rect x="1114" y="50" width="68" height="18" rx="3" fill="#c8a96e"/>
+<text x="1148" y="62.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#0a0a0a">DEPTH</text>
+</g><g class="bar" style="animation-delay:4.374s;animation-duration:0.7s" opacity="0">
+<rect x="1148" y="40" width="40" height="492" fill="url(#barGlow)"/>
+<path d="M1188 40V532" stroke="#c8a96e" stroke-width="1.6"/>
+<rect x="1114" y="50" width="68" height="18" rx="3" fill="#c8a96e"/>
+<text x="1148" y="62.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#0a0a0a">BEAUTY</text>
+</g>
+    <g class="late" fill="none" stroke="#c8a96e" stroke-width="1.4" stroke-opacity=".8">
+      <path d="M26 80v-26h26M1174 80v-26h-26M26 492v26h26M1174 492v26h-26"/>
+    </g>
+    <text class="late" x="1170" y="512" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1.6" fill="#f0ede8" fill-opacity=".7">BEAUTY · FINAL · v002</text>
+  </g>
+  <g class="boot" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+    <rect width="1200" height="40" fill="#111111"/>
+    <path d="M0 39.5H1200M0 532.5H1200" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="24" y="14" width="12" height="12" rx="2" fill="none" stroke="#c8a96e" stroke-width="1.4"/><circle class="pulse" style="animation-duration:2s" cx="30" cy="20" r="2.4" fill="#c8a96e"/>
+    <text x="46" y="25" font-size="11" font-weight="700" letter-spacing="1.6" fill="#f0ede8">MIHIRUPADH_0100</text>
+    <text x="179" y="25" font-size="10" letter-spacing="1" fill="#8a8a82">comp_v002</text>
+    <g font-size="9.5" letter-spacing="1.6"><text class="tabOn" style="animation-delay:0s;animation-duration:2.469s" x="512" y="25" text-anchor="middle" fill="#8a8a82">WIRE</text><text class="tabOn" style="animation-delay:2.244s;animation-duration:0.935s" x="562" y="25" text-anchor="middle" fill="#8a8a82">CLAY</text><text class="tabOn" style="animation-delay:2.9539999999999997s;animation-duration:0.935s" x="615" y="25" text-anchor="middle" fill="#8a8a82">NORMALS</text><text class="tabOn" style="animation-delay:3.6639999999999997s;animation-duration:1.06s" x="680" y="25" text-anchor="middle" fill="#8a8a82">DEPTH</text><text class="tabWait" style="animation-duration:4.724s" x="742" y="25" text-anchor="middle" fill="#c8a96e">BEAUTY</text></g>
+    <rect class="uline" x="718" y="33" width="48" height="2" fill="#c8a96e"/>
+    <text x="1110" y="25" text-anchor="end" font-size="10" letter-spacing="1" fill="#8a8a82">2048×858 · 2.39 · 24 fps</text>
+    <text x="1128" y="25" text-anchor="end" font-size="9" letter-spacing="1" fill="#8a8a82">F</text>
+    <g clip-path="url(#fc)"><g class="roll" style="transform:translateY(0px)"><use xlink:href="#fd" x="1152.1" y="10.7"/></g></g><g clip-path="url(#fc)"><g class="roll" style="transform:translateY(-42.9px)"><use xlink:href="#fd" x="1159" y="25"/></g></g><g clip-path="url(#fc)"><g class="roll" style="transform:translateY(-514.8px)"><use xlink:href="#fd" x="1165.8" y="25"/></g></g><g clip-path="url(#fc)"><g class="roll" style="transform:translateY(-486.2px)"><use xlink:href="#fd" x="1172.6" y="10.7"/></g></g>
+  </g>
+  <g class="boot" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+    <path d="M1125.1 566v-14.1M1128 566v-20" stroke="#c8a96e" stroke-opacity="0.55" stroke-width="1.6"/>
+    <path d="M72 566.5H1128" stroke="#ffffff" stroke-opacity=".2"/>
+    <path d="M121.3 568v5M211.3 568v5M301.2 568v5M382.4 568v5M472.4 568v5M559.4 568v5M649.3 568v5M736.4 568v5M826.3 568v5M916.2 568v5M1003.3 568v5M1093.2 568v5" stroke="#8a8a82" stroke-opacity=".6"/>
+    <g font-size="8" letter-spacing="1" fill="#8a8a82"><text x="124.3" y="582">DEC</text><text x="214.3" y="582">JAN</text><text x="304.2" y="582">FEB</text><text x="385.4" y="582">MAR</text><text x="475.4" y="582">APR</text><text x="562.4" y="582">MAY</text><text x="652.3" y="582">JUN</text><text x="739.4" y="582">JUL</text><text x="829.3" y="582">AUG</text><text x="919.2" y="582">SEP</text><text x="1006.3" y="582">OCT</text><text x="1096.2" y="582">NOV</text></g>
+    <path d="M1128 538l4 4l-4 4l-4 -4z" fill="#c8a96e"/><text x="1120" y="545" text-anchor="end" font-size="8" letter-spacing="1" fill="#c8a96e">PEAK · 13 NOV · 10 CONTRIBUTIONS</text>
+    <text x="62" y="569" text-anchor="end" font-size="9" fill="#8a8a82">1001</text>
+    <text x="1138" y="569" font-size="9" fill="#8a8a82">1365</text>
+    <text x="72" y="594" font-size="8.5" letter-spacing="1.4" fill="#8a8a82">ONE FRAME PER DAY · 15 CONTRIBUTIONS · 2 ACTIVE DAYS</text>
+    <text x="1128" y="594" text-anchor="end" font-size="8.5" letter-spacing="1.4" fill="#8a8a82">ONE TOWER PER DAY · ONE ROW PER WEEK</text>
+    <g class="play"><path d="M1128 552V572" stroke="#f0ede8" stroke-width="1.4"/><path d="M1123 548h10v4l-5 5l-5 -5z" fill="#f0ede8"/></g>
+  </g>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="599" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
