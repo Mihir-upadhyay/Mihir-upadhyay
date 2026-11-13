@@ -5,7 +5,6 @@
 </picture>
 </p>
 
-<p align="center"><b>Mihir-upadhyay</b></p>
 
 
 #### Comp script
