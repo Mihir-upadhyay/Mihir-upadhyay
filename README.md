@@ -48,3 +48,35 @@
   <img alt="End card: an on-set lighting reference kit, with a grey ball, a chrome ball and a colour chart. Thanks for watching." src="./assets/breakdown-end-light.svg" width="100%">
 </picture>
 </p>
+
+<div align="center">
+
+<img src="assets/header.svg" alt="Mihir Upadhyay: RTL design, FPGA, embedded systems, PCB and RF" width="100%"/>
+
+<img src="assets/terminal.svg" alt="Terminal boot sequence introducing Mihir" width="100%"/>
+
+<img src="assets/hydroponics.svg" alt="Autonomous hydroponics system: sensors, custom ESP32 PCB, Raspberry Pi / Jetson MQTT platform, actuators, closed loop" width="100%"/>
+
+<img src="assets/fsm.svg" alt="FPGA digital door lock finite state machine on Xilinx Artix-7 100T" width="100%"/>
+
+<img src="assets/projects.svg" alt="Antenna, quadruped robot and cyberdeck projects" width="100%"/>
+
+<img src="assets/skills.svg" alt="Skills as IC packages: HDL, FPGA, PCB and simulation, microcontrollers, code and tools" width="100%"/>
+
+<img src="assets/hw-header.svg" alt="Hardware Lab: click a board to inspect it in 3D" width="100%"/>
+
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#rpi5"><img src="assets/hw-rpi5.svg" width="24%" alt="Raspberry Pi 5 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#jetson"><img src="assets/hw-jetson.svg" width="24%" alt="Jetson Nano 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#arduino"><img src="assets/hw-arduino.svg" width="24%" alt="Arduino Uno 3D model"/></a>
+<a href="https://Mihir-upadhyay.github.io/hardware-lab/#esp32s3"><img src="assets/hw-esp32s3.svg" width="24%" alt="ESP32-S3 3D model"/></a>
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINK)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mihir-upadhyay)
+
+<img src="assets/footer.svg" alt="end of transmission" width="100%"/>
+
+</div>
+
