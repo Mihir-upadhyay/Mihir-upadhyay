@@ -1,18 +1,19 @@
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-hero-dark.svg">
-  <img alt="Mihir-upadhyay: GitHub profile. A visual-effects shot breakdown: a city with one tower for every day of the last year, as tall as that day was busy, shown as wireframe, clay, normals and depth passes and then the final sunset beauty pass, with the name as the title. 58 contributions on 2 active days." src="./assets/breakdown-hero-light.svg" width="100%">
+  <img alt="Mihir Upadhyay: ICT undergraduate student at Pandit Deendayal Energy University. A visual-effects shot breakdown: a city with one tower for every day of the last year, as tall as that day was busy, shown as wireframe, clay, normals and depth passes and then the final sunset beauty pass, with the name as the title. 88 contributions on 3 active days." src="./assets/breakdown-hero-light.svg" width="100%">
 </picture>
 </p>
 
-
+<p align="center"><b>Mihir Upadhyay</b> · ICT undergraduate student at Pandit Deendayal Energy University.</p>
+<p align="center"><a href="https://mihir-upadhyay.github.io/portfolio"><img src="./assets/links/website.svg" alt="mihir-upadhyay.github.io" height="28"></a> <a href="mailto:mihirupadhyay7788@gmail.com"><img src="./assets/links/email.svg" alt="mihirupadhyay7788@gmail.com" height="28"></a> <a href="https://www.linkedin.com/in/mihir-upadhyay-0209962a1/"><img src="./assets/links/linkedin.svg" alt="LinkedIn" height="28"></a> <a href="https://www.instagram.com/mihir_upadhyay_/"><img src="./assets/links/instagram.svg" alt="Instagram" height="28"></a></p>
 
 #### Comp script
 
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-script-dark.svg">
-  <img alt="Comp script: the last year is the background plate, frames 1001 to 1365, with Dual-band-slotted-monopole-antenna, Artix-7-door-lock-SystemVerilog-FPGA-, Arduino-Shield, 8-DOF-quadrabot-using-ESP32 merged over it, then graded, written out as v002 and viewed. Render log: 58 contributions on 2 active days, longest streak 2 days, longest break 363 days, peak day November 13 with 53, 0 followers, 4 stars, on GitHub since 2024. Languages: MATLAB 37%, C++ 33%, Verilog 24%, Tcl 6%." src="./assets/breakdown-script-light.svg" width="100%">
+  <img alt="Comp script: the last year is the background plate, frames 1001 to 1365, with Dual-band-slotted-monopole-antenna, Artix-7-door-lock-SystemVerilog-FPGA-, Arduino-Shield, 8-DOF-quadrabot-using-ESP32 merged over it, then graded, written out as v003 and viewed. Render log: 88 contributions on 3 active days, longest streak 3 days, longest break 362 days, peak day November 13 with 64, 1 followers, 4 stars, on GitHub since 2024. Languages: HTML 26%, CSS 17%, MATLAB 15%, C++ 13%, JavaScript 10%, Verilog 10%." src="./assets/breakdown-script-light.svg" width="100%">
 </picture>
 </p>
 
@@ -22,7 +23,7 @@
 - **The shot:** one tower per day of the last 12 months and one row per week, laid out like the contribution calendar (Sunday on the left). A tower is as tall as that day was busy, relative to your busiest day. This week is nearest the camera; the oldest week recedes toward the sun.
 - **The passes:** wireframe, clay, normals and depth are the render passes a CG artist checks before a shot goes out. The hero wipes through them to the final beauty pass, the way a breakdown reel does.
 - **The timeline:** one frame per day, from frame 1001 (where shots start) to 1365. Bar heights are daily contributions, and the diamond marks your busiest day.
-- **Comp script:** the year is the background plate. Featured repositories are Read nodes merged over it, each with a material preview in its language colour. The result is graded, then written out as version v002: one version for every active day.
+- **Comp script:** the year is the background plate. Featured repositories are Read nodes merged over it, each with a material preview in its language colour. The result is graded, then written out as version v003: one version for every active day.
 - **Colour chart:** language share by bytes across public repositories, above a grey ramp.
 - **The end card:** an on-set lighting reference kit, with a grey ball, a chrome ball reflecting the shot's sunset and a colour chart.
 
@@ -30,47 +31,18 @@
 
 </details>
 
+#### Credits
 
-<div align="center">
+- **[Dual-band-slotted-monopole-antenna](https://github.com/Mihir-upadhyay/Dual-band-slotted-monopole-antenna)**  
+  <sub>★ 1</sub>
+- **[Artix-7-door-lock-SystemVerilog-FPGA-](https://github.com/Mihir-upadhyay/Artix-7-door-lock-SystemVerilog-FPGA-)**  
+  <sub>Verilog · ★ 1</sub>
+- **[Arduino-Shield](https://github.com/Mihir-upadhyay/Arduino-Shield)**  
+  <sub>★ 1</sub>
+- **[8-DOF-quadrabot-using-ESP32](https://github.com/Mihir-upadhyay/8-DOF-quadrabot-using-ESP32)**  
+  <sub>C++ · ★ 1</sub>
 
-<img src="assets/header.svg" alt="Mihir Upadhyay: RTL design, FPGA, embedded systems, PCB and RF" width="100%"/>
-
-<img src="assets/terminal.svg" alt="Terminal boot sequence introducing Mihir" width="100%"/>
-
-<img src="assets/hydroponics.svg" alt="Autonomous hydroponics system: sensors, custom ESP32 PCB, Raspberry Pi / Jetson MQTT platform, actuators, closed loop" width="100%"/>
-
-<img src="assets/fsm.svg" alt="FPGA digital door lock finite state machine on Xilinx Artix-7 100T" width="100%"/>
-
-<img src="assets/projects.svg" alt="Antenna, quadruped robot and cyberdeck projects" width="100%"/>
-
-<img src="assets/skills.svg" alt="Skills as IC packages: HDL, FPGA, PCB and simulation, microcontrollers, code and tools" width="100%"/>
-
-<img src="assets/hw-header.svg" alt="Hardware Lab: click a board to inspect it in 3D" width="100%"/>
-
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#rpi5"><img src="assets/hw-rpi5.svg" width="24%" alt="Raspberry Pi 5 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#jetson"><img src="assets/hw-jetson.svg" width="24%" alt="Jetson Nano 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#arduino"><img src="assets/hw-arduino.svg" width="24%" alt="Arduino Uno 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#esp32s3"><img src="assets/hw-esp32s3.svg" width="24%" alt="ESP32-S3 3D model"/></a>
-
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#nano"><img src="assets/hw-nano.svg" width="24%" alt="Arduino Nano 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#rain"><img src="assets/hw-rain.svg" width="24%" alt="Rain Sensor 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#ir"><img src="assets/hw-ir.svg" width="24%" alt="IR Sensor 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#gas"><img src="assets/hw-gas.svg" width="24%" alt="Gas Sensor 3D model"/></a>
-
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#pir"><img src="assets/hw-pir.svg" width="24%" alt="PIR Sensor 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#ultrasonic"><img src="assets/hw-ultrasonic.svg" width="24%" alt="Ultrasonic 3D model"/></a>
-<a href="https://Mihir-upadhyay.github.io/hardware-lab/#servo"><img src="assets/hw-servo.svg" width="24%" alt="Servo Motor 3D model"/></a>
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihir-upadhyay-0209962a1/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mihirupadhyay7788@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mihir-upadhyay)
-
-<img src="assets/footer.svg" alt="end of transmission" width="100%"/>
-
-</div>
-
+**Toolkit:** HTML · CSS · MATLAB · C++
 
 <p align="center">
 <picture>
